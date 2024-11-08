@@ -1,0 +1,6 @@
+sources:
+  - name: snowplow
+    database: dbt
+    schema: snowplow
+    tables:
+      - name: events
